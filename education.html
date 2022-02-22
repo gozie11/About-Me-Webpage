@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Fixed top navbar example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
+		<title></title>
+    
+
+    <!-- Bootstrap core CSS -->
+		<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar-top-fixed.css" rel="stylesheet">
+  </head>
+  <body >
+		<style>
+			.school-profiles{
+				background-color: bisque;
+				height: 800px-;
+				width: d-flex;
+
+			}	
+
+			h1{
+				font-family: 'Allerta Stencil';
+			}
+
+
+		</style>
+
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Welcome!</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav me-auto mb-2 mb-md-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="education.html">Education</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Experience.html">Experience</a>
+					</li>
+				</ul>
+				<form class="d-flex">
+				</form>
+			</div>
+		</div>
+		</nav>
+
+		<main class="container">
+
+			<div class="bg-light p-5 rounded text-primary">
+				<h1>Educational Journey</h1>
+				<p class="lead">This page contains information about my schooling.</p>
+				<img src="my_avatar.png" alt="Avatar" width="120" height="150" class="avatar">
+
+			</div>
+
+			<div class="div">
+				<div class="row school-profiles justify-content-around align-items-center" >
+					
+					<div class="col-sm-6">
+						<figure class="figure"><div class="p-3 border bg-dark"</div>
+  						<img src="../austinccd.png" class="figure-img img-fluid rounded" alt="...">
+  						<figcaption class="figure-caption text-white">I earned an Associate degree in computer science from Austin Community college   </figcaption>
+						</figure>
+
+
+					</div>
+					<div class="col-sm-6">
+						<figure class="figure"><div class="p-3 border bg-dark"</div>
+  						<img src="../Texas_State_University_seal.png" class="figure-img img-fluid rounded" alt="...">
+  						<figcaption class="figure-caption text-white ">I expect to graduate from Texas State University with a bachelors in computer science in December 2022</figcaption>
+						</figure>
+
+
+					</div>
+				</div>
+
+			</div>
+			<div class="courses">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item list-name text-success"><b>These courses are the most relevant to my career</b></li>
+          <li class="list-group-item text-success">Data Structures & Algorithms</li>
+          <li class="list-group-item text-success">Object-Oriented Design</li>
+          <li class="list-group-item text-success">Software Engineering</li>
+          <li class="list-group-item text-success">Web Development</li>
+        </ul>
+
+				
+      </div>
+			
+			
+		</main>
+
+
+				<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+					
+  </body>
+</html>

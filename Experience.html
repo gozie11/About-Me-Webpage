@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Masonry example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/masonry/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+			h1{
+				padding-top: 70px; 
+			}
+			
+    </style>
+
+    
+  </head>
+
+
+
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Welcome!</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="education.html">Education</a>
+        </li>
+				<li class="nav-item">
+          <a class="nav-link" href="Experience.html">Experience</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+  <body>
+    
+	<main class="container py-5 text-danger">
+
+  	<h1>Experience and Hobbies</h1>
+				<img src="my_avatar.png" alt="Avatar" width="120" height="150" class="avatar">
+
+
+  <hr class="my-5">
+
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="../compsci.png" class="figure-img img-fluid rounded" alt="...">
+
+        <div class="card-body">
+          <h5 class="card-title">Computer  Science Research Department</h5>
+          <p class="card-text">Spearheaded research on creating a RaspberryPi cluster using jupyterHub.The goal of my project was to create a way for students and staff to run code in the cloud and utilize resources that may be better than those on their own system.</p>
+					<p class="card-text"><small class="text-muted">Software Team Lead</small></p>
+					<p class="card-text"><small class="text-muted">Jan 2022 – Present</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="../IBM.png" class="figure-img img-fluid rounded" alt="...">
+
+        <div class="card-body">
+          <h5 class="card-title">IBM Accelerate</h5>
+          <p class="card-text">Motivated a team of novice software developers to implement fullstack web apps such as a todo list, a user search, and a quiz game.</p>
+          <p class="card-text"><small class="text-muted">Jun 2021 – Aug 2021</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-primary text-white text-center p-3">
+        <figure class="mb-0">
+          <blockquote class="blockquote">
+            <p>“Find Your Natural Rhythm And Harmonize With It.”</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-white">
+           <cite title="Source Title">Yohancé Salimu</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Music</h5>
+          <p class="card-text">I love playing the bass guitar (I'm very much a rookie though).</p>
+          <p class="card-text"><small class="text-muted">October 2021</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="../IMG_8495.jpg" class="figure-img img-fluid rounded" alt="...">
+
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">HEB</h5>
+          <p class="card-text">I worked as a cross functional team member and contributed to the store by providing excellent customer service. I did everything from personally shopping and delivering orders to customers, to manning checkstands. </p>
+          <p class="card-text"><small class="text-muted">March 2020 – Present</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+  </body>
+</html>
